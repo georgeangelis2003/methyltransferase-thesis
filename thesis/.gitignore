@@ -1,0 +1,12 @@
+fasta_files/
+reference_proteomes/
+new_sca_analysis/
+sca_analysis/
+software/
+*.fasta
+*.aln
+*.treefile
+*.log
+*.iqtree
+*.ckp.gz
+!**/*.py
