@@ -1,12 +1,28 @@
+# Ignore the bulky data folders themselves
 fasta_files/
-reference_proteomes/
 new_sca_analysis/
 sca_analysis/
 software/
+
+# Allow Git to enter reference_proteomes but ignore its files by default
+reference_proteomes/**
+# Except for the scripts!
+!reference_proteomes/**/*.py
+!reference_proteomes/**/*.sh
+
+# Specific biological data/log exclusions
 *.fasta
 *.aln
 *.treefile
 *.log
 *.iqtree
 *.ckp.gz
-!**/*.py
+*.dbtype
+*.index
+*.lookup
+*.source
+*.db*
+aln_db.*
+foldseek_db*
+tmp/
+structures/
