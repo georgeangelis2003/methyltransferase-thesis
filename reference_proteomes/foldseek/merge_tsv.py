@@ -1,8 +1,8 @@
 import csv
 
-uniprot_file = '/home/angelis/thesis/reference_proteomes/foldseek/active_sites.tsv'
+uniprot_file = '/home/angelis/thesis/reference_proteomes/foldseek/only_active_sites.tsv'
 foldmason_file = '/home/angelis/thesis/reference_proteomes/foldseek/foldmason_active_sites.tsv'
-output_file = '/home/angelis/thesis/reference_proteomes/foldseek/final_msta_table.tsv'
+output_file = '/home/angelis/thesis/reference_proteomes/foldseek/new_final_msta_table.tsv'
 
 fold_data = {}
 with open(foldmason_file, 'r') as f:
